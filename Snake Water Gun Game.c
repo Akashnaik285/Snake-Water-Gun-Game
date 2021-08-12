@@ -50,10 +50,10 @@ int main(){
     srand(time(0));
     int number = rand()%100 + 1;
 
-    if(number<33){
+    if(number<=33){     // 33 was not included
         comp = 's';
     }
-    else if(number>33 && number<66){
+    else if(number>33 && number<=66){   // 66 was not included not a problem but still 
         comp='w';
     }
     else{
